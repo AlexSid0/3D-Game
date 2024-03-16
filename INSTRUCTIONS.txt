@@ -1,0 +1,18 @@
+use the portable_Installer to get portable git to work on your code
+
+open git bash
+navigate to 3D_Game with "cd"
+
+git init
+git config --global user.email "astro_studios@outlook.com"
+git config --global user.name "AlexSid0"
+
+git remote add origin https://github.com/AlexSid0/3D-Game.git
+or git remote set-url origin https://github.com/AlexSid0/3D-Game.git
+
+git status
+git add .
+git commit -m ""
+git push -f origin master
+
+Token :/Token.txt
